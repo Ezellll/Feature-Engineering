@@ -20,7 +20,7 @@ pd.set_option('display.width', 500)
 # Adım 1: 
 
 def load():
-    data = pd.read_csv("feature_engineering/diabetes/diabetes.csv")
+    data = pd.read_csv("Dataset/diabetes.csv")
     return data
 
 df = load()
